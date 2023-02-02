@@ -9,21 +9,21 @@ https://www.kaggle.com/datasets/evangower/premier-league-matches-19922022
 El conjunto de datos original está compuesto por 11646 registros en 8 columnas, en las que no se registran datos faltantes
 y que presentan la siguiente estructura: 
 
-Season_End_Year --> Contiene el año de finalización del campeonato
-Wk              --> La semana o jornada en disputa
-Date            --> La fecha en que se celebró el cotejo
-Home            --> El nombre del equipo que fungió de Local
-HomeGoals       -->Goles anotados por el equipo Local
-AwayGoals       -->Goles anotados por el equipo Visitante
-Away            -->El nombre del equipo que hizo de Visitante
-FTR             -->Resultado del enfrentamiento, H = Victoria local,  A = Victoria visitante, D = Draw
+* Season_End_Year --> Contiene el año de finalización del campeonato
+* Wk              --> La semana o jornada en disputa
+* Date            --> La fecha en que se celebró el cotejo
+* Home            --> El nombre del equipo que fungió de Local
+* HomeGoals       -->Goles anotados por el equipo Local
+* AwayGoals       -->Goles anotados por el equipo Visitante
+* Away            -->El nombre del equipo que hizo de Visitante
+* FTR             -->Resultado del enfrentamiento, H = Victoria local,  A = Victoria visitante, D = Draw
 
 Y aunque la data es bastante robusta y completa me pareció necesaria la creación de nueva data para facilita su entendimiento.
 
-TotalGoals      -->Alberga el total de goles anotados en el partido	
-WinningTeam     -->El nombre del equipo que resultó ganador del encuentro
-LosingTeam      -->El equipo derrotado. Si en estas 2 columnas no hay registro es por que fue un empate	
-Result          -->Una representación del resultado final del encuentro
+* TotalGoals      -->Alberga el total de goles anotados en el partido	
+* WinningTeam     -->El nombre del equipo que resultó ganador del encuentro
+* LosingTeam      -->El equipo derrotado. Si en estas 2 columnas no hay registro es por que fue un empate	
+* Result          -->Una representación del resultado final del encuentro
 
 Podremos visualizar cuantos equipos han disputado el torneo a lo largo de estos 30 años, entendiendo que el mismo tiene un formato
 en el que los 3 últimos de la tabla de posiciones pierden la categoría y son ocupados dichos puestos por los 3 primeros del torneo 
